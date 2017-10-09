@@ -1,7 +1,7 @@
 get-appxpackage messaging | remove-appxpackage
 get-appxpackage sway | remove-appxpackage
 get-appxpackage commsphone | remove-appxpackage
-get-appxpackage windowsphone remove-appxpackage
+get-appxpackage windowsphone | remove-appxpackage
 get-appxpackage phone | remove-appxpackage
 get-appxpackage communicationsapps | remove-appxpackage
 get-appxpackage people | remove-appxpackage
