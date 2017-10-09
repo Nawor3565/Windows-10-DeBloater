@@ -4,7 +4,7 @@ Windows 10's auto-installing bloatware is getting worse with every update. This 
 --------------------------------------------------------------------------------------------
 
 # How to Run
-Download the "Win10Debloater" folder, and place it anywhere you like. Right-click the file "RUN-AS-ADMIN.bat" and, you guessed it, choose Run as Administrator. Agree to all the registry edits, you can check what each one does first if you like. And that's it!
+Download the Win10Debloater.zip file from the lastest release, and extract it anywhere you like. Right-click the file "RUN-AS-ADMIN.bat" and, you guessed it, choose Run as Administrator. Agree to all the registry edits, you can check what each one does first if you like. And that's it!
 
 --------------------------------------------------------------------------------------------
 
