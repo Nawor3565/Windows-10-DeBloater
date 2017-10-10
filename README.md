@@ -17,17 +17,11 @@ This is the main file to run. It runs all the other files in the directory, in t
 * **RegistryChanges.reg**  
 This file changes two registry values, SilentInstalledAppsEnabled and AllowTelemetry. SilentInstalledAppsEnabled allows Windows 10 to install apps like Facebook or Skype without prompting you and without your permission. AllowTelemetry lets Windows collect data about your machine that they claim "enhances the user experience" and it won't let you turn this off completely. This .reg file sets both of those values to disabled.
 
-* **AllowPowerShellScripts.reg**  
-By default, you are not allowed to run PowerShell script files. This changes the respective registry key from "restricted" to unrestricted," allowing those scripts to be run. Don't worry, it's disabled again afterwards.
-
 * **RemoveBuiltInPrograms.ps1**  
 This is a PowerShell script that uninstalls all the bloatware programs that come built in to Windows 10. The full list can be seen in *removed-programs.txt*, but none of these effect normal use and are rarely ever used on a desktop.
 
 * **DisableTelemetryServices.ps1**  
 Another PowerShell script, this one disables two telemetry services, *Connected User Experiences* and *dmwappushsvc*. Again, these have no effect on Windows and are only used for data collection.
-
-* **DisallowPowerShellScripts.reg**  
-Since allowing PowerShell scripts to be run is a huge security risk, this file reverses the change made in *AllowPowerShellScripts.reg*.
 
 * **FinishedMessage.vbs**  
 Just displays a message telling you the process is completed, nothing fancy.
