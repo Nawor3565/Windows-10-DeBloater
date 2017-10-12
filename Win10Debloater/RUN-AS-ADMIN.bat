@@ -1,5 +1,7 @@
 pushd %~dp0
 registrychanges.reg
-PowerShell –ExecutionPolicy Bypass ".\RemoveBuiltInPrograms.ps1"
-PowerShell –ExecutionPolicy Bypass ".\DisableTelemetryServices.ps1"
+AllowPowerShellScripts.reg
+PowerShell ".\RemoveBuiltInPrograms.ps1"
+PowerShell ".\DisableTelemetryServices.ps1"
+DisallowPowerShellScripts.reg
 FinishedMessage.vbs
