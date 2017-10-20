@@ -24,7 +24,7 @@ This is a PowerShell script that uninstalls all the bloatware programs that come
 Another PowerShell script, this one disables two telemetry services, *Connected User Experiences* and *dmwappushsvc*. Again, these have no effect on Windows and are only used for data collection.
 
 * **FinishedMessage.vbs**  
-Just displays a message telling you the process is completed, nothing fancy.
+Displays a message giving you the option to restart Windows in 5 minutes. Choose "no" if you want to restart on your own time.
 
 --------------------------------------------------------------------------------------------
 
